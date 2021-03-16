@@ -17,6 +17,7 @@ Part list:
  1 x ESP-01
 
 Cablaggio:
+
  DEVICE  DIR N NAME  ->  DEVICE  DIR N NAME
 
  Roomba  OUT 1 VPWR  ->  Buck    IN  1 VPWR
