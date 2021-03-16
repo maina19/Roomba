@@ -34,14 +34,12 @@
 #include <SimpleTimer.h>
 
 /* Parametri di connessione ***************************************************************/
-#define WLAN_SSID       "Mainardi"                          // Nome WiFi
-#define WLAN_PASS       "mainamaina"                        // Password WiFi
-// #define WLAN_SSID       "Home&Life SuperWiFi-826D"          // Nome WiFi Monica
-// #define WLAN_PASS       "GT4RUE8K3RQGUD3T"                  // Password WiFi Monica
+#define WLAN_SSID       "***"                          // Nome WiFi
+#define WLAN_PASS       "***"                        // Password WiFi
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                                // 1883 per SSL
-#define AIO_USERNAME    "maina19"                           // Username Adafruit
-#define AIO_KEY         "aio_RUlS07OANkkMQEbl8yLdrsEznbMw"  // IO key Adafruit
+#define AIO_USERNAME    "***"                           // Username Adafruit
+#define AIO_KEY         "***"  // IO key Adafruit
 
 /* Comandi Roomba *************************************************************************/
 #define RESET           7
