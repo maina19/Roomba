@@ -34,12 +34,12 @@
 #include <SimpleTimer.h>
 
 /* Parametri di connessione ***************************************************************/
-#define WLAN_SSID       "***"                          // Nome WiFi
-#define WLAN_PASS       "***"                        // Password WiFi
+#define WLAN_SSID       "***"             // Nome WiFi
+#define WLAN_PASS       "***"             // Password WiFi
 #define AIO_SERVER      "io.adafruit.com"
-#define AIO_SERVERPORT  1883                                // 1883 per SSL
-#define AIO_USERNAME    "***"                           // Username Adafruit
-#define AIO_KEY         "***"  // IO key Adafruit
+#define AIO_SERVERPORT  1883              // 1883 per SSL
+#define AIO_USERNAME    "***"             // Username Adafruit
+#define AIO_KEY         "***"             // IO key Adafruit
 
 /* Comandi Roomba *************************************************************************/
 #define RESET           7
@@ -96,8 +96,8 @@ struct RoombaState myRoomba;
 WiFiClient client;
 
 Adafruit_MQTT_Client    mqtt (&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
-Adafruit_MQTT_Subscribe roombaSub = Adafruit_MQTT_Subscribe (&mqtt, AIO_USERNAME "/feeds/RoombaCtrl");
-Adafruit_MQTT_Publish   roombaPub = Adafruit_MQTT_Publish   (&mqtt, AIO_USERNAME "/feeds/RoombaData");
+Adafruit_MQTT_Subscribe roombaSub = Adafruit_MQTT_Subscribe (&mqtt, AIO_USERNAME "***");
+Adafruit_MQTT_Publish   roombaPub = Adafruit_MQTT_Publish   (&mqtt, AIO_USERNAME "***");
 
 SimpleTimer stayAwakeTimer;
 SimpleTimer getSensorsTimer;
