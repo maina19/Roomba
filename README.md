@@ -1,8 +1,7 @@
 # Roomba
 Software per ESP-01 montato su Roomba 606.
 
-Utilizzo di due feed Adafruit, RoombaCtrl e RoombaData, per il controllo ed i dati
-forniti dall'ESP.
+Utilizzo di due feed Adafruit per il controllo ed i dati forniti dall'ESP.
 
 Aggiornato al 14/03/2021  
 
